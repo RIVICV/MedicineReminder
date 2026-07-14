@@ -34,8 +34,7 @@ import java.util.concurrent.Executors;
 
 public class DrugSearchActivity extends AppCompatActivity {
 
-    // 重要：请填入你在天聚数行申请的ApiKey
-    private static final String TIANAPI_KEY = "f0f52a915fec882b0e6732433b5d54a4";
+    String apiKey = getString(R.string.tianapi_key);
 
     private EditText etDrugName;
     private Button btnSearch;
@@ -46,7 +45,7 @@ public class DrugSearchActivity extends AppCompatActivity {
 
     private DrugResultAdapter adapter;
     private final List<DrugInfo> drugList = new ArrayList<>();
-    private final ExecutorService executor = Executors.newSingleThreadExecutor();
+    private final ExecIutorService executor = Executors.newSingleThreadExecutor();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
