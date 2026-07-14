@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="首页"
+        android:icon="@android:drawable/ic_menu_compass" />
+    <item
+        android:id="@+id/nav_history"
+        android:title="记录"
+        android:icon="@android:drawable/ic_menu_recent_history" />
+    <item
+        android:id="@+id/nav_search"
+        android:title="搜索"
+        android:icon="@android:drawable/ic_menu_search" />
+</menu>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 基础主题（无ActionBar，使用自定义Toolbar） -->
+    <style name="Theme.MedicineReminder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/primary_soft</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!-- 导航栏颜色 -->
+        <item name="android:navigationBarColor">@color/background_main</item>
+
+        <!-- 全局背景 -->
+        <item name="android:windowBackground">@color/background_main</item>
+
+        <!-- 主要颜色 -->
+        <item name="colorPrimary">@color/primary_soft</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <item name="colorSecondary">@color/accent_mint</item>
+        <item name="colorSecondaryVariant">@color/accent_cream</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- 控件默认颜色 -->
+        <item name="colorAccent">@color/accent_mint</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- 按钮样式 -->
+        <item name="materialButtonStyle">@style/Widget.Medicine.Button</item>
+        <item name="chipStyle">@style/Widget.Medicine.Chip</item>
+    </style>
+</resources>
