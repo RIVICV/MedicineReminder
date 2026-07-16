@@ -1,4 +1,4 @@
-# Medicine Reminder / 药不能停
+# Medicine Reminder
 
 > *"让每一次服药，都被温柔以待。"*  
 > *"Every dose, gently reminded."*
